@@ -6,7 +6,9 @@
       .service('goods', goods);
 
   /** @ngInject */
-  function goods($http) {
+  function goods($q, $http) {
+
+    var activatedPromise;
 
     var goods = undefined;
     var categories = undefined;
@@ -23,14 +25,21 @@
 
 
     function activate() {
-      $http.get("app/rest/categories.json").then(function (response) {
+      var activatedDefer = $q.defer();
+      activatedPromise = activatedDefer.promise;
+
+      var categoriesPromise = $http.get("app/rest/categories.json").then(function (response) {
         categories = response.data;
       });
 
-      $http.get("app/rest/goods.json").then(function (response) {
+      var goodsPromise = $http.get("app/rest/goods.json").then(function (response) {
         goods = response.data;
         fillCaregoriesByGoods(goods);
       });
+
+      $q.all([categoriesPromise, goodsPromise]).then(function () {
+        activatedDefer.resolve();
+      })
     }
 
     function allGoods() {
@@ -63,14 +72,17 @@
     }
 
     function getGood(goodId) {
-      if(goods) {
+      return activatedPromise.then(function () {
+        if(!goods) {
+          return undefined;
+        }
+
         for (var i=0; i<goods.length; i++) {
           if (goods[i].id == goodId) {
             return goods[i];
           }
         }
-      }
-      return undefined;
+      });
     }
   }
 
