@@ -1,0 +1,22 @@
+<div layout="vertical" layout-fill>
+  <md-content class="fillFull">
+    <header>
+      <acme-navbar></acme-navbar>
+    </header>
+
+    <section class="jumbotron">
+      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
+      <h1> Select GOOD {{ goodView.good.title}}</h1>
+    </section>
+
+
+
+    <md-content>
+      <img class="pull-right" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+      <div class="md-list-item-text" layout="column">
+        <h3 class="md-title">{{ goodView.good.title }}</h3>
+        <p>{{ goodView.good.description }}</p>
+      </div>
+    </md-content>
+  </md-content>
+</div>

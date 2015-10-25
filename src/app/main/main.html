@@ -19,14 +19,14 @@
     <md-list class="goods-container" ng-repeat="category in main.allCategories()">
       <md-subheader class="md-no-sticky">{{category.name}}</md-subheader>
         <md-list-item class="md-3-line md-long-text"
-                      ng-repeat="awesomeThing in main.goodsByCategory(category)"
-                      ng-click="main.navigateTo(awesomeThing.title, $event)">
-          <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+                      ng-repeat="good in main.goodsByCategory(category)"
+                      ng-click="main.navigateTo(good)">
+          <img class="pull-right" ng-src="assets/images/{{ good.logo }}" alt="{{ good.title }}">
           <div class="md-list-item-text" layout="column">
-            <h3 class="md-title">{{ awesomeThing.title }}</h3>
-            <p>{{ awesomeThing.description }}</p>
+            <h3 class="md-title">{{ good.title }}</h3>
+            <p>{{ good.description }}</p>
           </div>
-          <img class="pull-right md-avatar" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+          <img class="pull-right md-avatar" ng-src="assets/images/{{ good.logo }}" alt="{{ good.title }}">
           <md-divider></md-divider>
         </md-list-item>
     </md-list>

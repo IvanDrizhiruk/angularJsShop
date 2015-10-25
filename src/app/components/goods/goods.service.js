@@ -17,7 +17,8 @@
     return {
       allCategories: allCategories,
       allGoods: allGoods,
-      goodsByCategory: goodsByCategory
+      goodsByCategory: goodsByCategory,
+      getGood: getGood
     };
 
 
@@ -29,7 +30,6 @@
       $http.get("app/rest/goods.json").then(function (response) {
         goods = response.data;
         fillCaregoriesByGoods(goods);
-
       });
     }
 
@@ -60,6 +60,17 @@
 
     function goodsByCategory(category) {
       return getCatagorisedGoods(category.id);
+    }
+
+    function getGood(goodId) {
+      if(goods) {
+        for (var i=0; i<goods.length; i++) {
+          if (goods[i].id == goodId) {
+            return goods[i];
+          }
+        }
+      }
+      return undefined;
     }
   }
 

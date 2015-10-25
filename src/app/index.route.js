@@ -12,6 +12,11 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+      .when('/goods/:goodId', {
+        templateUrl: 'app/good/good.html',
+        controller: 'GoodController',
+        controllerAs: 'goodView'
+      })
       .when('/contactas', {
         templateUrl: 'app/contactas/contactas.html'
       })
