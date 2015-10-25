@@ -56,15 +56,10 @@
           getCatagorisedGoods(categoryId).push(good);
         });
       });
-
-      console.log("ISD -----------------------", goodsByCategoryData);
     }
 
     function goodsByCategory(category) {
-      console.log("ISD category" + category);
-      var res = getCatagorisedGoods(category.id);
-      console.log("ISD res ", res);
-      return res;
+      return getCatagorisedGoods(category.id);
     }
   }
 

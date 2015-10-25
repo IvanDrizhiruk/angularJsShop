@@ -22,6 +22,6 @@
           .ok('Go go go!')
           .targetEvent(event)
       );
-    };
+    }
   }
 })();
