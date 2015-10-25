@@ -9,7 +9,7 @@
   function acmeNavbar() {
     return {
       restrict: 'E',
-      templateUrl: 'app/components/navbar/navbar.html',
+      templateUrl: 'app/components/navbar/navbar.html'
     };
   }
 

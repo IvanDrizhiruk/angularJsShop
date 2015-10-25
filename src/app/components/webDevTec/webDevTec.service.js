@@ -11,19 +11,19 @@
       {
         'title': 'AngularJS',
         'url': 'https://angularjs.org/',
-        'description': 'HTML enhanced for web apps!',
+        'description': 'HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!',
         'logo': 'angular.png'
       },
       {
         'title': 'BrowserSync',
         'url': 'http://browsersync.io/',
-        'description': 'Time-saving synchronised browser testing.',
+        'description': 'Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.',
         'logo': 'browsersync.png'
       },
       {
         'title': 'GulpJS',
         'url': 'http://gulpjs.com/',
-        'description': 'The streaming build system.',
+        'description': 'The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.',
         'logo': 'gulp.png'
       },
       {

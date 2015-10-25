@@ -75,10 +75,23 @@ section.jumbotron h1 {
 }
 
 .techs md-card {
-  width: 30%;
+  width: 95%;
 }
 
 .techs md-card img.pull-right {
   float: right;
   width: 100px;
+}
+
+.goods-container md-list-item {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+md-list.goods-container md-list-item button.md-button:hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.fillFull {
+  width: 100%;
 }

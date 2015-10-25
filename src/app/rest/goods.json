@@ -1,0 +1,44 @@
+[
+  {
+    "title": "AngularJS",
+    "description": "HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!",
+    "logo": "angular.png",
+    "categoryIds": [1]
+  },
+  {
+    "title": "BrowserSync",
+    "description": "Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.",
+    "logo": "browsersync.png",
+    "categoryIds": [2]
+  },
+  {
+    "title": "GulpJS",
+    "description": "The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.",
+    "logo": "gulp.png",
+    "categoryIds": [3]
+  },
+  {
+    "title": "Jasmine",
+    "description": "Behavior-Driven JavaScript.",
+    "logo": "jasmine.png",
+    "categoryIds": [1,2,3]
+  },
+  {
+    "title": "Karma",
+    "description": "Spectacular Test Runner for JavaScript.",
+    "logo": "karma.png",
+    "categoryIds": [1]
+  },
+  {
+    "title": "Protractor",
+    "description": "End to end test framework for AngularJS applications built on top of WebDriverJS.",
+    "logo": "protractor.png",
+    "categoryIds": [2]
+  },
+  {
+    "title": "Angular Material Design",
+    "description": "The Angular reference implementation of the Google\"s Material Design specification.",
+    "logo": "angular-material.png",
+    "categoryIds": [3]
+  }
+]
