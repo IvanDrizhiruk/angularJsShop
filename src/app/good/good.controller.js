@@ -12,10 +12,9 @@
     goods.getGood($routeParams.goodId).then(function (good) {
       vm.good = good;
 
-      if(undefined === vm.good) {
+      if(angular.isUndefined(vm.good)) {
         $location.path("home");
       }
     });
-
   }
 })();
