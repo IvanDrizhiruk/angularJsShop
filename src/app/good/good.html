@@ -14,26 +14,10 @@
         md-align-tabs="bottom"
         md-dynamic-height
         md-center-tabs
-        md-no-pagination
         md-swipe-content
         class="image-view pull-left">
-        <md-tab id="tab1">
-          <md-tab-label>
-            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
-          </md-tab-label>
-          <md-tab-body>
-            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
-          </md-tab-body>
-        </md-tab>
-        <md-tab id="tab2">
-          <md-tab-label>
-            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
-          </md-tab-label>
-          <md-tab-body>
-            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
-          </md-tab-body>
-        </md-tab>
-        <md-tab id="tab3">
+        <md-tab ng-repeat="xxx in ['id1','id2','id3','id4','id5','id6','id7','id8','id9','id10','id11','id12']"
+                id="{{xxx}}">
           <md-tab-label>
             <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
           </md-tab-label>
