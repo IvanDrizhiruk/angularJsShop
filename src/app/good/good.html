@@ -10,11 +10,45 @@
     </section>
 
     <md-content>
-      <img class="pull-right" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
-      <div class="md-list-item-text" layout="column">
-        <h3 class="md-title">{{ goodView.good.title }}</h3>
-        <p>{{ goodView.good.description }}</p>
-      </div>
+      <md-tabs
+        md-align-tabs="bottom"
+        md-dynamic-height
+        md-center-tabs
+        md-no-pagination
+        md-swipe-content
+        class="image-view pull-left">
+        <md-tab id="tab1">
+          <md-tab-label>
+            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-label>
+          <md-tab-body>
+            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-body>
+        </md-tab>
+        <md-tab id="tab2">
+          <md-tab-label>
+            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-label>
+          <md-tab-body>
+            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-body>
+        </md-tab>
+        <md-tab id="tab3">
+          <md-tab-label>
+            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-label>
+          <md-tab-body>
+            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+          </md-tab-body>
+        </md-tab>
+      </md-tabs>
+
+      <md-card>
+        <md-card-content>
+          <h3 class="md-title">{{ goodView.good.title }}</h3>
+          <p>{{ goodView.good.description }}</p>
+        </md-card-content>
+      </md-card>
     </md-content>
   </md-content>
 </div>

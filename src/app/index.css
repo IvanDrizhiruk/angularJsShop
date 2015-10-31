@@ -77,10 +77,13 @@ section.jumbotron h1 {
 .techs md-card {
   width: 95%;
 }
+.techs md-card.cube {
+  width: 30%;
+}
 
-.techs md-card img.pull-right {
-  float: right;
+.techs md-card img {
   width: 100px;
+  margin: 10px;
 }
 
 .goods-container md-list-item {
@@ -94,4 +97,46 @@ md-list.goods-container md-list-item button.md-button:hover {
 
 .fillFull {
   width: 100%;
+}
+
+.md-toolbar-tools.sub-header {
+  background-color: gray;
+}
+
+md-tabs.image-view {
+  width: 30%;
+  min-width: 310px;
+}
+
+md-tabs[md-align-tabs="bottom"].image-view md-tabs-wrapper,
+.image-view md-tabs-canvas,
+.image-view md-pagination-wrapper {
+  height: 100px;
+}
+
+md-tabs[md-align-tabs="bottom"].image-view {
+  padding-bottom: 100px;
+}
+
+.image-view .md-tab {
+  padding: 5px;
+}
+
+.image-view .image-preview {
+  width: 100px;
+  height: 100px;
+}
+
+.image-view md-tab-content div {
+  align-items: center;
+  display: flex;
+}
+
+.image-view .image-content {
+  width: 300px;
+  margin:0 auto;
+}
+
+.pull-left {
+  float: left;
 }
