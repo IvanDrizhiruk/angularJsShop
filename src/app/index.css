@@ -56,17 +56,18 @@ md-toolbar.md-default-theme {
   background-color: black;
 }
 
-section.jumbotron {
-  margin-bottom: 30px;
-  padding: 1px 30px;
-  background-color: #5aadbb;
-  text-align: center;
-
-  color: white;
+.header h1 {
+  font-size: 3em;
 }
 
-section.jumbotron h1 {
-  font-size: 3em;
+.header .logo {
+  margin: 10px;
+}
+
+.header .logo img {
+  height: 100px;
+  width: 100px;
+  float: left;
 }
 
 .techs {
