@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('striver')
+    .module('nikross')
     .controller('MainExampleController', MainExampleController);
 
   /** @ngInject */

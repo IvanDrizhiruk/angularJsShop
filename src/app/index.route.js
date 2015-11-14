@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('striver')
+    .module('nikross')
     .config(routeConfig);
 
   function routeConfig($routeProvider) {

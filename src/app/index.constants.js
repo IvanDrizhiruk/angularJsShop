@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('striver')
+    .module('nikross')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 

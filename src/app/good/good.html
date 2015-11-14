@@ -16,13 +16,13 @@
         md-center-tabs
         md-swipe-content
         class="image-view pull-left">
-        <md-tab ng-repeat="xxx in ['id1','id2','id3','id4','id5','id6','id7','id8','id9','id10','id11','id12']"
-                id="{{xxx}}">
+        <md-tab ng-repeat="photoInfo in goodView.good.photosOfGoods"
+                id="photoInfo.photo">
           <md-tab-label>
-            <img class="image-preview" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+            <img class="image-preview" ng-src="assets/img/goods/{{goodView.good.id}}/{{ photoInfo.thumbnail || photoInfo.photo }}" alt="{{ goodView.good.title }}">
           </md-tab-label>
           <md-tab-body>
-            <img class="image-content" ng-src="assets/images/{{ goodView.good.logo }}" alt="{{ goodView.good.title }}">
+            <img class="image-preview" ng-src="assets/img/goods/{{goodView.good.id}}/{{ photoInfo.photo }}" alt="{{ goodView.good.title }}">
           </md-tab-body>
         </md-tab>
       </md-tabs>

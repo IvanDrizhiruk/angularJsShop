@@ -6,7 +6,7 @@
 
     <section class="jumbotron">
       <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      <h1>STRIVER -> With ♥</h1>
+      <h1>NIKROSS -> With ♥</h1>
     </section>
 
 
@@ -28,7 +28,7 @@
           ng-repeat="good in main.goodsByCategory(category)"
           ng-click="main.navigateTo(good)">
           <md-card-content>
-            <img class="pull-left" ng-src="assets/images/{{ good.logo }}" alt="{{ good.title }}">
+            <img class="pull-left" ng-src="assets/img/goods/{{good.id}}/{{ good.photosOfGoods[0].thumbnail || good.photosOfGoods[0].photo }}" alt="{{ good.title }}">
             <h3 class="md-title">{{ good.title }}</h3>
             <p>{{ good.description }}</p>
           </md-card-content>

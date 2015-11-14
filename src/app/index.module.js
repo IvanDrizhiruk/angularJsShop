@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('striver',
+  angular.module('nikross',
       [
         'ngAnimate',
         'ngCookies',
