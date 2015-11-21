@@ -1,65 +1,91 @@
 [
   {
     "id": 1,
-    "title": "AngularJS",
-    "description": "HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!HTML enhanced for web apps!",
+    "title": "Костюм спортивний чоловічий",
+    "description": "Костюм спортивний чоловічий стаорений з приміненям кращих технологій нашими кращими спеціалістами. Склад ...",
     "categoryIds": [1],
     "photosOfGoods": [
-      {"photo": "1.jpg", "thumbnail ": "1.jpg"},
-      {"photo": "2.jpg", "thumbnail ": "2.jpg"}
+      {"photo": "1.jpg", "thumbnail ": "1.jpg"}
     ]
   },
   {
     "id": 2,
-    "title": "BrowserSync",
-    "description": "Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.Time-saving synchronised browser testing.",
-    "categoryIds": [2],
+    "title": "Костюм спортивний жіночий",
+    "description": "Костюм спортивний жіночий стаорений з приміненям кращих технологій нашими кращими спеціалістами. Склад ...",
+    "categoryIds": [1],
     "photosOfGoods": [
       {"photo": "1.jpg", "thumbnail ": "1.jpg"},
       {"photo": "2.jpg", "thumbnail ": "2.jpg"},
-      {"photo": "3.jpg"}
+      {"photo": "3.jpg"},
+      {"photo": "4.jpg"},
+      {"photo": "5.jpg"},
+      {"photo": "6.jpg"},
+      {"photo": "7.jpg"}
     ]
   },
   {
     "id": 3,
-    "title": "GulpJS",
-    "description": "The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.The streaming build system.",
-    "categoryIds": [3],
+    "title": "Костюм спортивний унісекс",
+    "description": "Костюм спортивний унісекс стаорений з приміненям кращих технологій нашими кращими спеціалістами. Склад ...",
+    "categoryIds": [1],
     "photosOfGoods": [
       {"photo": "1.jpg", "thumbnail ": "1.jpg"}
     ]
   },
   {
     "id": 4,
-    "title": "Jasmine",
-    "description": "Behavior-Driven JavaScript.",
-    "categoryIds": [1,2,3],
-    "photosOfGoods": [
-      {"photo": "1.jpg", "thumbnail ": "1.jpg"}
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Karma",
-    "description": "Spectacular Test Runner for JavaScript.",
+    "title": "КОД 777",
+    "description": "Мегаштука модель 2016 року",
     "categoryIds": [1],
     "photosOfGoods": [
       {"photo": "1.jpg", "thumbnail ": "1.jpg"}
     ]
   },
   {
-    "id": 6,
-    "title": "Protractor",
-    "description": "End to end test framework for AngularJS applications built on top of WebDriverJS.",
+    "id": 5,
+    "title": "Штани чоловічі",
+    "description": "Однотонні штани прямого силуету з регульованим ременем. Багато кишень: дві бокових, одна ззаду. Завдяки матеріалу Softshell не пропускають вологу, захищають від вітру і забезпечують оптимальну терморегуляцію. Вам буде комфортно, куди б ви не поїхали: в похід, на пікнік або просто на прогулянку лісом.",
     "categoryIds": [2],
+    "photosOfGoods": [
+      {"photo": "1.jpg", "thumbnail ": "1.jpg"},
+      {"photo": "2.jpg"},
+      {"photo": "3.jpg"}
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Штани жіночі",
+    "description": "Для вас красивих",
+    "categoryIds": [2],
+    "photosOfGoods": [
+      {"photo": "1.jpg", "thumbnail ": "1.jpg"},
+      {"photo": "2.jpg"},
+      {"photo": "3.jpg"}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Майка біла",
+    "description": "Якісна",
+    "categoryIds": [3],
+    "photosOfGoods": [
+      {"photo": "1.jpg", "thumbnail ": "1.jpg"},
+      {"photo": "2.jpg", "thumbnail ": "2.jpg"}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Футболка жіноча",
+    "description": "Для вас",
+    "categoryIds": [3],
     "photosOfGoods": [
       {"photo": "1.jpg", "thumbnail ": "1.jpg"}
     ]
   },
   {
-    "id": 7,
-    "title": "Angular Material Design",
-    "description": "The Angular reference implementation of the Google\"s Material Design specification.",
+    "id": 9,
+    "title": "Футболка спецыальна",
+    "description": "О ля-ля",
     "categoryIds": [3],
     "photosOfGoods": [
       {"photo": "1.jpg", "thumbnail ": "1.jpg"}
